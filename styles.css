@@ -6,3 +6,17 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+div.PassMgrIntegration-block {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: var(--background-secondary);
+}
+
+button.PassMgrIntegration-btn {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+button.PassMgrIntegration-btn:disabled {
+    background-color: var(--background-secondary);
+}
